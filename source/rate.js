@@ -9,5 +9,5 @@ var GU = 100/guRate;
 console.log("100 USD in EUR "+EU);
 console.log("100 USD in GBP "+GU);
 console.log("Back-rates:");
-console.log(EU + "EUR in USD " + EU/(1/euRate));
-console.log(GU + "GBP in USD " + GU/(1/guRate));
+console.log("100 EUR in USD " + 100/(1/euRate));
+console.log("100 GBP in USD " + 100/(1/guRate));
