@@ -1,5 +1,9 @@
 //in3050.js
-
+/*
+  Given 2 int values, return true if they are both in
+  the range 30..40 inclusive, or they are both in the
+  range 40..50 inclusive.
+*/
 console.log(in3050(30,31));
 console.log(in3050(30,41));
 console.log(in3050(40,50));

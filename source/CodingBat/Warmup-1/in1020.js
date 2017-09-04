@@ -1,5 +1,8 @@
 // in1020.js
-
+/*
+  Given 2 int values, return true if either of
+  them is in the range 10..20 inclusive.
+*/
 console.log(in1020(12,99));
 console.log(in1020(21,12));
 console.log(in1020(8,99));

@@ -1,5 +1,9 @@
 //delDel.js
-
+/*
+  Given a string, if the string "del" appears starting at
+  index 1, return a string where that "del" has been
+  deleted. Otherwise, return the string unchanged.
+*/
 console.log(delDel("adelbc"));
 console.log(delDel("adelHello"));
 console.log(delDel("adedbc"));

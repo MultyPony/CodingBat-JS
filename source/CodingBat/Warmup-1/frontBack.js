@@ -1,5 +1,8 @@
 //frontBack.js
-
+/*
+  Given a string, return a new string where
+  the first and last chars have been exchanged.
+*/
 console.log(frontBack("code"));
 console.log(frontBack("a"));
 console.log(frontBack("ab"));

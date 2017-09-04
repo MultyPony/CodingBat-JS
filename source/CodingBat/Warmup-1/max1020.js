@@ -1,5 +1,9 @@
 //max1020.js
-
+/*
+  Given 2 positive int values, return the larger value
+  that is in the range 10..20 inclusive, or return 0
+  if neither is in that range.
+*/
 console.log(max1020(11,19));
 console.log(max1020(19,11));
 console.log(max1020(11,9));
