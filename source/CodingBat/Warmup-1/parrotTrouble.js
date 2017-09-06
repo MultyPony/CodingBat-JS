@@ -1,4 +1,3 @@
-//parrotTrouble.js
 /*
   We have a loud talking parrot. The "hour" parameter
   is the current hour time in the range 0..23. We are
@@ -11,5 +10,5 @@ console.log(parrotTrouble(false, 6));
 console.log(parrotTrouble(true, 21));
 
 function parrotTrouble(talking, hour) {
-  return (talking && (hour < 7 || hour > 20)) ? true : false;
+  return (talking && (hour < 7 || hour > 20));
 }
