@@ -13,5 +13,5 @@ console.log(backAround("read"));
 
 function backAround(str) {
   var lastChar = str[str.length-1];
-  return lastChar + str.slice(0) + lastChar;
+  return lastChar + str + lastChar;
 }
