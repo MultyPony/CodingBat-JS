@@ -11,6 +11,5 @@ console.log(monkeyTrouble(true, false));
 console.log(monkeyTrouble(false, true));
 
 function monkeyTrouble(aSmile, bSmile) {
-  if(aSmile === bSmile) return true;
-  return false;
+  return aSmile === bSmile;
 }
