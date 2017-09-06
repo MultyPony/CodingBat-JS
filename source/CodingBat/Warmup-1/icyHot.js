@@ -11,6 +11,6 @@ console.log(icyHot(-2,-2));
 console.log(icyHot(-101,101));
 
 function icyHot(temp1, temp2) {
-  return (temp1 * temp2 < 0 &&
-    (temp1 > 100 || temp2 > 100));
+  return (temp1 < 0 || temp2 < 0) &&
+    (temp1 > 100 || temp2 > 100);
 }
