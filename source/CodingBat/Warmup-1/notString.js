@@ -12,5 +12,5 @@ console.log(notString("not bad"));
 console.log(notString("bad"));
 
 function notString(str) {
-  return (str.length < 3 || str.substring(0,3) !== "not") ? "not " + str : str;
+  return (str.length < 3 || str.slice(0,3) !== "not") ? "not " + str : str;
 }
