@@ -12,5 +12,5 @@ console.log(startHi(""));
 
 function startHi(str) {
   return (str.length >= 2 &&
-    str.substring(0,2) == "hi");
+    str.slice(0,2) == "hi");
 }
