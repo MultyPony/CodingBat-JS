@@ -1,4 +1,3 @@
-//missingChar.js
 /*
   Given a non-empty string and an int n,
   return a new string where the char at
@@ -13,5 +12,7 @@ console.log(missingChar("kitten",4));
 console.log(missingChar("Hi",0));
 
 function missingChar(str, n) {
-  return str.slice(0,n) + str.slice(n+1);
+  var array = str.split("");
+  array.splice(n,1);
+  return array.join("");
 }
