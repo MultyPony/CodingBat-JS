@@ -13,8 +13,8 @@ console.log(loneTeen(20,15)); //true
 function loneTeen(a, b) {
   // var isTeenA = (a >= 13 && a <= 19);
   // var isTeenB = (b >= 13 && b <= 19);
-  if(isTeen(a) && isTeen(b)) return false;
-  return isTeen(a) || isTeen(b);
+  // if(isTeen(a) && isTeen(b)) return false;
+  return isTeen(a) != isTeen(b);
 }
 function isTeen(x) {
   return (x >= 13 && x <= 19);
