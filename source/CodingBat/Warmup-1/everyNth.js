@@ -13,6 +13,6 @@ console.log(everyNth("Chocolates",3));
 
 function everyNth(str, n) {
   var res = "";
-  for(var i = 0; i < str.length; i += n) res += str.charAt(i);
+  for(var i = 0; i < str.length; i += n) res += str[i];
   return res;
 }
