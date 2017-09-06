@@ -11,6 +11,5 @@ console.log(startHi("h"));
 console.log(startHi(""));
 
 function startHi(str) {
-  return (str.length >= 2 &&
-    str.slice(0,2) == "hi");
+  return str.startsWith("hi");
 }
