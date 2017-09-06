@@ -13,7 +13,7 @@ console.log(startOz("o"));
 
 function startOz(str) {
   var res = "";
-  if(str.length >= 1 && str.charAt(0) == 'o') res += "o";
-  if(str.length >= 2 && str.charAt(1) == 'z') res += "z";
+  if(str.length >= 1 && str[0] == 'o') res += "o";
+  if(str.length >= 2 && str[1] == 'z') res += "z";
   return res;
 }

@@ -10,5 +10,5 @@ console.log(mixStart("nix"));
 console.log(mixStart("ni"));
 
 function mixStart(str) {
-  return (str.length > 2 && str.substring(1,3) == "ix");
+  return (str.length > 2 && str.slice(1,3) == "ix");
 }
