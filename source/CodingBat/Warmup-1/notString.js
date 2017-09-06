@@ -1,4 +1,3 @@
-//notString.js
 /*
   Given a string, return a new string where
   "not " has been added to the front. However,
@@ -12,5 +11,6 @@ console.log(notString("not bad"));
 console.log(notString("bad"));
 
 function notString(str) {
-  return (str.length < 3 || str.slice(0,3) !== "not") ? "not " + str : str;
+  return str.startsWith("not") ? str : "not " + str;
+  // return (str.length < 3 || str.slice(0,3) !== "not") ? "not " + str : str;
 }
