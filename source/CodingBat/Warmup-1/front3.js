@@ -14,6 +14,6 @@ console.log(frontBack("ab"));
 function frontBack(str) {
   var front;
   if(str.length < 3) front = str;
-  else front = str.substring(0,3);
+  else front = str.slice(0,3);
   return front + front + front;
 }
