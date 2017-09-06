@@ -14,6 +14,6 @@ console.log(front22(""));
 function front22(str) {
   var firstTwo;
   if(str.length < 2) firstTwo = str;
-  else firstTwo = str.substring(0,2);
+  else firstTwo = str.slice(0,2);
   return firstTwo + str + firstTwo;
 }
