@@ -3,16 +3,14 @@
   Return true if the given string contains between
   1 and 3 'e' chars.
 */
-console.log(stringE("Hello"));
-console.log(stringE("Heelle"));
-console.log(stringE("Heelele"));
-console.log(stringE("Hll"));
-console.log(stringE("e"));
-console.log(stringE(""));
+console.log(stringE("Hello"));   //true
+console.log(stringE("Heelle"));  //true
+console.log(stringE("Heelele")); //false
+console.log(stringE("Hll"));     //false
+console.log(stringE("e"));       //true
+console.log(stringE(""));        //false
 
 function stringE(str) {
-  var count = 0;
-  for(var pos = str.indexOf("e"); pos != -1; pos = str.indexOf("e",pos+1))
-    count++;
-  return count > 0 && count < 4;
+  str = str.replace(/[^e]/g,'');
+  return str.length >= 1 && str.length <= 3;
 }
