@@ -9,7 +9,6 @@ console.log(mixStart("nix"));         //true
 console.log(mixStart("ni"));          //false
 
 function mixStart(str) {
-  var regex = /ix/y;
-  regex.lastIndex = 1;
+  var regex = /^.ix/;
   return regex.test(str);
 }
