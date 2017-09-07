@@ -19,6 +19,6 @@ function max1020(a, b) {
   // else if(inRangeA && !inRangeB) return a;
   // return b;
 }
-function inRange(x) {
+function inRange1020(x) {
   return (x >= 10 && x <= 20);
 }
