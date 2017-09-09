@@ -4,11 +4,11 @@
   string and also as the last 2 chars of the string,
   so "hixxxhi" yields 1 (we won't count the end substring).
 */
-console.log(last2("hixxhi"));
-console.log(last2("xaxxaxaxx"));
-console.log(last2("axxxaaxx"));
-console.log(last2("xxaxxaxxaxx"));
-console.log(last2("xaxaxaxx"));
+console.log(last2("hixxhi"));        //1
+console.log(last2("xaxxaxaxx"));     //1
+console.log(last2("axxxaaxx"));      //2
+console.log(last2("xxaxxaxxaxx"));   //3
+console.log(last2("xaxaxaxx"));      //0
 
 function last2(str) {
   if(str.length < 4) return 0;

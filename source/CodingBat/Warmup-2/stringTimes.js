@@ -4,14 +4,12 @@
   return a larger string that is n copies
   of the original string.
 */
-console.log(stringTimes("Hi", 2));
-console.log(stringTimes("Hi", 3));
-console.log(stringTimes("Hi", 1));
-console.log(stringTimes("Hi", 0));
-console.log(stringTimes("Hi", 5));
+console.log(stringTimes("Hi", 2));  //HiHi
+console.log(stringTimes("Hi", 3));  //HiHiHi
+console.log(stringTimes("Hi", 1));  //Hi
+console.log(stringTimes("Hi", 0));  //
+console.log(stringTimes("Hi", 5));  //HiHiHiHiHi
 
 function stringTimes(str, n) {
-  var res = "";
-  for(var i = 0;i < n; ++i) res += str;
-  return res;
+  return str.repeat(n);
 }

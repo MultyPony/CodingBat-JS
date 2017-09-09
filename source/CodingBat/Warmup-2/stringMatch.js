@@ -4,11 +4,11 @@
   and "xxbaaz" yields 3, since the "xx", "aa", and "az"
   substrings appear in the same place in both strings.
 */
-console.log(stringMatch("xxcaazz","xxbaaz"));
-console.log(stringMatch("abc","abc"));
-console.log(stringMatch("abc","axc"));
-console.log(stringMatch("hello","he"));
-console.log(stringMatch("he","hello"));
+console.log(stringMatch("xxcaazz","xxbaaz"));  //3
+console.log(stringMatch("abc","abc"));         //2
+console.log(stringMatch("abc","axc"));         //0
+console.log(stringMatch("hello","he"));        //1
+console.log(stringMatch("he","hello"));        //1
 
 function stringMatch(a,b) {
   var len = Math.min(a.length, b.length);
