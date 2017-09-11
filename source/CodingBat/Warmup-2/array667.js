@@ -11,8 +11,6 @@ console.log(array667([6, 6, 2, 6, 7]));  //2
 console.log(array667([1, 6, 3]));        //0
 
 function array667(nums) {
-  var str = nums.join("");
-  var initLength = str.length;
-  var endLength = str.replace(/66|67/g,"").length;
-  return (initLength - endLength)/2;
+  let str = nums.join("");
+  return str.split(/66|67/).length-1;
 }

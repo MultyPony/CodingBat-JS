@@ -10,8 +10,8 @@ console.log(altPairs("yak"));           //"ya"
 console.log(altPairs("ya"));            //"ya"
 
 function altPairs(str) {
-  var res = "";
-  for(var i = 0; i < str.length; ) {
+  let res = "";
+  for(let i = 0; i < str.length; ) {
     res += str[i];
     if(i % 2 != 0) i += 3;
     else i++;
