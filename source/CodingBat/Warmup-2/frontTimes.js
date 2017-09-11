@@ -15,6 +15,6 @@ function frontTimes(str, n) {
   var front = str;
   var res = "";
   if(str.length >= 3) front = str.slice(0,3);
-  for(var i = 0;i < n; ++i) res += front;
+  for (var i = 0;i < n; ++i) res += front;
   return res;
 }
