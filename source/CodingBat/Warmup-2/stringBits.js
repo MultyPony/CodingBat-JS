@@ -10,9 +10,5 @@ console.log(stringBits("HiHiHi"));      //HHH
 console.log(stringBits(""));            //
 
 function stringBits(str) {
-  var array = str.split('');
-  array = array.filter(function(el,index) {
-   return index % 2 == 0;
-  });
-  return array.join('');
+  return str.split('').filter((_,i) => (i % 2 == 0)).join('')
 }

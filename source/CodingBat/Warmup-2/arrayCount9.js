@@ -8,7 +8,5 @@ console.log(arrayCount9([1,2,3]));       //0
 console.log(arrayCount9([]));            //0
 
 function arrayCount9(nums) {
-  return nums.filter(function(elem){
-    return elem == 9;
-  }).length;
+  return nums.filter(n => n === 9).length;
 }

@@ -10,7 +10,6 @@ console.log(doubleX('xaxxx'));   //false
 console.log(doubleX(''));        //false
 
 function doubleX(str) {
-  let fInd = str.indexOf("x");
-  if(fInd === -1) return false;
-  return str.replace("x","").indexOf("x") - fInd === 0;
+  if (str.length == 0) return false;
+  return str.search(/xx/) == str.search(/x/)
 }
