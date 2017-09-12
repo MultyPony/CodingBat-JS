@@ -10,6 +10,5 @@ console.log(arrayFront9([9, 2, 3]));        //true
 console.log(arrayFront9([1, 9, 9]));        //true
 
 function arrayFront9(nums) {
-  var ar4 = nums.slice(0,4);
-  return ar4.includes(9);
+  return nums.slice(0, 4).includes(9);
 }
