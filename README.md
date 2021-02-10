@@ -1,2 +1,1 @@
-# js_study
-My js solutions
+# Задачи с сайта CodingBat
